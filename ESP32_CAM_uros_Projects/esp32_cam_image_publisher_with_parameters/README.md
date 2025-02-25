@@ -27,8 +27,11 @@ To see the list of parameters run in a dedicated terminal the following command:
 Then you can change them via the "set" command like below:
 
 "ros2 param set /esp32_image_publisher" flash_led 1"
+
 "ros2 param set /esp32_image_publisher jpeg_quality 35"
+
 "ros2 param set /esp32_image_publisher frame_size 10"
+
 etc..
 
 More detailed instructions coming soon.. DB
