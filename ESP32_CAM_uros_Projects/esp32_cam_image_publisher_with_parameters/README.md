@@ -10,6 +10,7 @@ Note: It is assumed that the reader already installed the ESP-IDF framework for 
 In order to use/change the application clone it inside a folder, then do the following steps:
 - Select Flash Method, Port and Target (e.g., ESP32 CHIP, since ESP32-CAM is not an official Espressif target)
 - inside the /components directory clone the micro-ros_espidf_component, for the ROS2 iron irwini distro for example run:
+   
   git clone -b iron https://github.com/micro-ROS/micro_ros_espidf_component.git
 - clean the micro-ros component through the "idf.py clean-microros" command
 - run the "idf.py reconfigure" command, so all the XRCE-DDS changes written in the app-colcon.meta file will be updated correctly
